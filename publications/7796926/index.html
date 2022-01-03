@@ -36,25 +36,25 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 
   
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>SDV: An Open Source Library for Synthetic Data Generation | Carles Sala Cladellas</title>
-<meta name="generator" content="Jekyll v3.8.6" />
-<meta property="og:title" content="SDV: An Open Source Library for Synthetic Data Generation" />
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>The Synthetic Data Vault | Carles Sala Cladellas</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="The Synthetic Data Vault" />
 <meta name="author" content="Carles Sala" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="Machine Learning and Software Engineer. Founder of Pythia and Researcher at the Data to AI Laboratory, at MIT." />
 <meta property="og:description" content="Machine Learning and Software Engineer. Founder of Pythia and Researcher at the Data to AI Laboratory, at MIT." />
-<link rel="canonical" href="https://csala.github.io/research/mastersthesiu/" />
-<meta property="og:url" content="https://csala.github.io/research/mastersthesiu/" />
+<link rel="canonical" href="https://csala.dev/publications/7796926/" />
+<meta property="og:url" content="https://csala.dev/publications/7796926/" />
 <meta property="og:site_name" content="Carles Sala Cladellas" />
-<meta property="og:image" content="https://csala.github.io/assets/img/Carles_800x800.jpg" />
+<meta property="og:image" content="https://csala.dev/assets/img/Carles_800x800.jpg" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:image" content="https://csala.github.io/assets/img/Carles_800x800.jpg" />
-<meta property="twitter:title" content="SDV: An Open Source Library for Synthetic Data Generation" />
+<meta property="twitter:image" content="https://csala.dev/assets/img/Carles_800x800.jpg" />
+<meta property="twitter:title" content="The Synthetic Data Vault" />
 <meta name="twitter:site" content="@csala" />
 <meta name="twitter:creator" content="@csalacat" />
 <script type="application/ld+json">
-{"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://csala.github.io/assets/img/Carles_800x800.jpg"},"name":"Carles Sala"},"url":"https://csala.github.io/research/mastersthesiu/","headline":"SDV: An Open Source Library for Synthetic Data Generation","author":{"@type":"Person","name":"Carles Sala"},"image":"https://csala.github.io/assets/img/Carles_800x800.jpg","description":"Machine Learning and Software Engineer. Founder of Pythia and Researcher at the Data to AI Laboratory, at MIT.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"https://csala.dev/publications/7796926/","image":"https://csala.dev/assets/img/Carles_800x800.jpg","headline":"The Synthetic Data Vault","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://csala.dev/assets/img/Carles_800x800.jpg"},"name":"Carles Sala"},"author":{"@type":"Person","name":"Carles Sala"},"description":"Machine Learning and Software Engineer. Founder of Pythia and Researcher at the Data to AI Laboratory, at MIT.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -78,11 +78,11 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 <meta name="generator" content="Hydejack v8.5.2" />
 
-<link type="application/atom+xml" rel="alternate" href="https://csala.github.io/feed.xml" title="Carles Sala Cladellas" />
+<link type="application/atom+xml" rel="alternate" href="https://csala.dev/feed.xml" title="Carles Sala Cladellas" />
 
 
 
-<link rel="alternate" href="https://csala.github.io/research/mastersthesiu/" hreflang="en">
+<link rel="alternate" href="https://csala.dev/publications/7796926/" hreflang="en">
 
 <link rel="shortcut icon" href="/assets/icons/favicon.ico">
 <link rel="apple-touch-icon" href="/assets/icons/icon.png">
@@ -212,30 +212,29 @@ Powered by Hydejack v8.5.2 <https://hydejack.com/>
 
 
 <article class="page" role="article" vocab="http://schema.org/" typeof="CreativeWork">
-  <meta property="mainEntityOfPage" content="https://csala.github.io/research/mastersthesiu/"/>
+  <meta property="mainEntityOfPage" content="https://csala.dev/publications/7796926/"/>
 
   <header>
-    <h1 class="page-title" property="name">SDV: An Open Source Library for Synthetic Data
-Generation</h1>
+    <h1 class="page-title" property="name">The Synthetic Data Vault</h1>
 
     <p class="post-date heading">
       <a href="/research/">Research</a>
       |
       
-      Sep 2018
+      Oct 2016
       <span class="fr">
         <span class="sr-only">| Links:</span>
         
+          <a class="external" href="https://doi.org/10.1109/DSAA.2016.49" property="sameAs">DOI</a>
         
         
-          <a class="external" href="https://dai.lids.mit.edu/wp-content/uploads/2018/12/Andrew_MEng.pdf" property="sameAs">Download</a>
         
         
       </span>
       <div class="clearfix"></div>
       
         <strong>Authors:</strong>
-        Montanez, Andrew
+        Patki, N. and Wedge, R. and Veeramachaneni, K.
       
     </p>
   </header>
@@ -243,18 +242,7 @@ Generation</h1>
   
   <p class="message">
     <strong>Abstract:</strong>
-    In this thesis, I designed three open source Python libraries with the intention of
-creating a robust system that can accurately generate synthetic data. The goals of
-this thesis were to separate the different components in synthetic data generation
-into their own libraries. We identified these components as consisting of a way to
-transform the data, a way to model the data, and a way to recursively traverse the
-data set to model the relationships between the table as well as the data set itself.
-Once the libraries were implemented and functioning, we designed a program to
-run the synthetic data generation process in parallel on subsets of the original data.
-The goal of this program was to see if the overall modeling time could be reduced
-by modeling subsets in parallel and then averaging the parameters. In the end, we
-test how close these averaged parameters are to the original to see if this is a valid
-modeling technique.
+    The goal of this paper is to build a system that automatically creates synthetic data to enable data science endeavors. To achieve this, we present the Synthetic Data Vault (SDV), a system that builds generative models of relational databases. We are able to sample from the model and create synthetic data, hence the name SDV. When implementing the SDV, we also developed an algorithm that computes statistics at the intersection of related database tables. We then used a state-of-the-art multivariate modeling approach to model this data. The SDV iterates through all possible relations, ultimately creating a model for the entire database. Once this model is computed, the same relational information allows the SDV to synthesize data by sampling from any part of the database. After building the SDV, we used it to generate synthetic data for five different publicly available datasets. We then published these datasets, and asked data scientists to develop predictive models for them as part of a crowdsourced experiment. By analyzing the outcomes, we show that synthetic data can successfully replace original data for data science. Our analysis indicates that there is no significant difference in the work produced by data scientists who used synthetic data as opposed to real data. We conclude that the SDV is a viable solution for synthetic data generation.
   </p>
   
 
@@ -262,19 +250,19 @@ modeling technique.
 
 
   <h3>Citation (Chicago Manual of Style 17th edition)</h3>
-  <span id="mastersthesiu">Montanez, Andrew. 2018. “SDV: An Open Source Library for Synthetic Data
-Generation.” Master's thesis, Cambridge, Massachusetts: Massachusetts Institute of Technology.</span>
+  <span id="7796926">———. 2016. “The Synthetic Data Vault.” In <i>2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA)</i>, 399–410. https://doi.org/10.1109/DSAA.2016.49.</span>
 
   <h3>BibTeX</h3>
-  <pre>@mastersthesis{mastersthesiu,
-  author = {Montanez, Andrew},
-  title = {SDV: An Open Source Library for Synthetic Data
-  Generation},
-  school = {Massachusetts Institute of Technology},
-  year = {2018},
-  address = {Cambridge, Massachusetts},
-  month = sep,
-  x-download = {https://dai.lids.mit.edu/wp-content/uploads/2018/12/Andrew_MEng.pdf}
+  <pre>@inproceedings{7796926,
+  author = {{Patki}, N. and {Wedge}, R. and {Veeramachaneni}, K.},
+  booktitle = {2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA)},
+  title = {The Synthetic Data Vault},
+  year = {2016},
+  pages = {399-410},
+  keywords = {data analysis;relational databases;synthetic data vault;SDV;generative model;relational database;multivariate modelling;predictive model;data analysis;data science;Data models;Databases;Computational modeling;Predictive models;Hidden Markov models;Numerical models;Synthetic data generation;crowd sourcing;data science;predictive modeling},
+  doi = {10.1109/DSAA.2016.49},
+  issn = {null},
+  month = oct
 }
 </pre>
 
@@ -553,11 +541,11 @@ Generation.” Master's thesis, Cambridge, Massachusetts: Massachusetts Institut
       <li>
         <a
           
-          href="/research/"
+          href="/publications/"
           class="sidebar-nav-item active"
           
         >
-          Research
+          Publications
         </a>
       </li>
     

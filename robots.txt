@@ -1,1 +1,1 @@
-Sitemap: https://csala.github.io/sitemap.xml
+Sitemap: https://csala.dev/sitemap.xml
