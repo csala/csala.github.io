@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/blog/general/</loc>
-<lastmod>2022-02-11T14:02:06+01:00</lastmod>
+<lastmod>2022-07-04T14:17:53+02:00</lastmod>
 </url>
 <url>
 <loc>/blog/technology/</loc>
-<lastmod>2022-02-11T14:02:06+01:00</lastmod>
+<lastmod>2022-07-04T14:17:53+02:00</lastmod>
 </url>
 <url>
 <loc>/blog/general/2019-12-26-hello-world/</loc>
@@ -69,7 +69,10 @@
 <loc>/publications/mastersthesiu/</loc>
 </url>
 <url>
-<loc>/publications/DBLP_journals/corr/abs-1905-08942/</loc>
+<loc>/publications/10.1145/3318464.3386146/</loc>
+</url>
+<url>
+<loc>/publications/10.1145/3514221.3517910/</loc>
 </url>
 <url>
 <loc>/assets/Resume.pdf</loc>
